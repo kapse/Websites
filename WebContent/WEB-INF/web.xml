@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Examples</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>Userlogin Servlet</description>
+    <display-name>UserloginServlet</display-name>
+    <servlet-name>UserloginServlet</servlet-name>
+    <servlet-class>controller.UserloginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserloginServlet</servlet-name>
+    <url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Adminlogin Servlet</description>
+    <display-name>AdminloginServlet</display-name>
+    <servlet-name>AdminloginServlet</servlet-name>
+    <servlet-class>controller.AdminloginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminloginServlet</servlet-name>
+    <url-pattern>/adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Sellerlogin Servlet</description>
+    <display-name>SellerloginServlet</display-name>
+    <servlet-name>SellerloginServlet</servlet-name>
+    <servlet-class>controller.SellerloginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellerloginServlet</servlet-name>
+    <url-pattern>/sellerlogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Usersignup Servlet</description>
+    <display-name>UsersignupServlet</display-name>
+    <servlet-name>UsersignupServlet</servlet-name>
+    <servlet-class>controller.UsersignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsersignupServlet</servlet-name>
+    <url-pattern>/usersignup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Sellersignup Servlet</description>
+    <display-name>SellersignupServlet</display-name>
+    <servlet-name>SellersignupServlet</servlet-name>
+    <servlet-class>controller.SellersignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellersignupServlet</servlet-name>
+    <url-pattern>/sellersignup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>User Servlet</description>
+    <display-name>UserServlet</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin Servlet</description>
+    <display-name>AdminServlet</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>controller.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/adminservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Seller Servlet</description>
+    <display-name>SellerServlet</display-name>
+    <servlet-name>SellerServlet</servlet-name>
+    <servlet-class>controller.SellerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellerServlet</servlet-name>
+    <url-pattern>/sellerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Logout Servlet</description>
+    <display-name>LogoutServlet</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>CustomerService Servlet</description>
+    <display-name>CustomerServiceServlet</display-name>
+    <servlet-name>CustomerServiceServlet</servlet-name>
+    <servlet-class>controller.CustomerServiceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerServiceServlet</servlet-name>
+    <url-pattern>/customerservice</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Request Servlet</description>
+    <display-name>RequestServlet</display-name>
+    <servlet-name>RequestServlet</servlet-name>
+    <servlet-class>controller.RequestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestServlet</servlet-name>
+    <url-pattern>/request</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Seller ProfileInfo</description>
+    <display-name>SellerProfileInfo</display-name>
+    <servlet-name>SellerProfileInfo</servlet-name>
+    <servlet-class>controller.SellerProfileInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellerProfileInfo</servlet-name>
+    <url-pattern>/sellerprofileinfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Update Product</description>
+    <display-name>UpdateProduct</display-name>
+    <servlet-name>UpdateProduct</servlet-name>
+    <servlet-class>controller.UpdateProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProduct</servlet-name>
+    <url-pattern>/updateproduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Update Order</description>
+    <display-name>UpdateOrder</display-name>
+    <servlet-name>UpdateOrder</servlet-name>
+    <servlet-class>controller.UpdateOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateOrder</servlet-name>
+    <url-pattern>/updateorder</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Seller ContactBuyer</description>
+    <display-name>SellerContactBuyer</display-name>
+    <servlet-name>SellerContactBuyer</servlet-name>
+    <servlet-class>controller.SellerContactBuyer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SellerContactBuyer</servlet-name>
+    <url-pattern>/sellercontactbuyer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin UpdateProduct</description>
+    <display-name>AdminUpdateProduct</display-name>
+    <servlet-name>AdminUpdateProduct</servlet-name>
+    <servlet-class>controller.AdminUpdateProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateProduct</servlet-name>
+    <url-pattern>/adminupdateproduct</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin ContactBuyer</description>
+    <display-name>AdminContactBuyer</display-name>
+    <servlet-name>AdminContactBuyer</servlet-name>
+    <servlet-class>controller.AdminContactBuyer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminContactBuyer</servlet-name>
+    <url-pattern>/admincontactbuyer</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin ContactSeller</description>
+    <display-name>AdminContactSeller</display-name>
+    <servlet-name>AdminContactSeller</servlet-name>
+    <servlet-class>controller.AdminContactSeller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminContactSeller</servlet-name>
+    <url-pattern>/admincontactseller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin UpdateOrder</description>
+    <display-name>AdminUpdateOrder</display-name>
+    <servlet-name>AdminUpdateOrder</servlet-name>
+    <servlet-class>controller.AdminUpdateOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateOrder</servlet-name>
+    <url-pattern>/adminupdateeeorder</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Admin UpdateeOrder</description>
+    <display-name>AdminUpdateeOrder</display-name>
+    <servlet-name>AdminUpdateeOrder</servlet-name>
+    <servlet-class>controller.AdminUpdateOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateeOrder</servlet-name>
+    <url-pattern>/adminupdateorder</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>Adm UpdateOrder</description>
+    <display-name>AdmUpdateOrder</display-name>
+    <servlet-name>AdmUpdateOrder</servlet-name>
+    <servlet-class>controller.AdmUpdateOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdmUpdateOrder</servlet-name>
+    <url-pattern>/admupdateorder</url-pattern>
+  </servlet-mapping>
+</web-app>
